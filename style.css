@@ -1,0 +1,485 @@
+* {
+    padding: 0;
+	margin: 0;
+}
+body {
+	font-family: Times New Roman;
+	font-size: 14px;
+	line-height: 1.6;
+	background-color: #fff;
+	min-width: 1200px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	display: inline-block;
+	background-color: #ebe9ee;
+	margin-bottom: -7px;
+}
+
+.container nav {
+	font-family: 'font8dc0182b9dbbe71eeef23b5c8206700b', sans-serif;
+	width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 12px;
+	height: 28.5px;
+}
+
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 4px 1fr 4px 1.1fr 4px 1fr 4px 1fr 4px 1fr;
+	align-items: center;
+}
+
+.menu a {
+	color: #000;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 18px;
+}
+
+.menu div {
+	background: url(images/threepoints.png) no-repeat;
+	padding-bottom: 2px;
+	height: 10px;
+	width: 2px;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container1 {
+	font-family: SerlioLTStd;
+	src: url('fonts/SerlioLTStd.ttf');
+	background: url(images/2.png) no-repeat center / cover;
+	min-height: 720px;
+}
+
+.main{
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.name{
+	margin-top: 38px;
+	margin-left: 150px;
+	float: left;
+	text-align: right;
+	position: absolute;
+	display: inline;
+}
+
+.name1{
+	font-family: Rockwell Std;
+	src: url('fonts/RockwellStd.ttf');
+	font-size: 14px;
+	color: #adadae;
+	line-height: 1;
+}
+
+.name2{
+	font-size: 50px;
+	color: #323231;
+	line-height: .53; 
+	line-height: calc(((var(--lineheight) * var(--fontSize)) - var(--valign)) * 1px);
+}
+
+.name3{
+	font-size: 50px;
+	color: #adadae;
+	line-height: .74;
+}
+
+.fr{
+	float: right;
+}
+
+.back {
+	margin-top: 40px;
+	background: url(images/3.png) no-repeat;
+	background-position: center;
+	background-size: contain;
+	min-height: 670px;
+	width: 100%;
+	position: absolute;
+}
+
+.info {
+	margin-top: 123px;
+	margin-left: 100px;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	width: 260px
+}
+
+.Wedding{
+	margin-bottom: 17px;
+	font-size: 48px;
+	font-family: Times New Roman, sans-serif;
+	text-shadow: #cc9999 1px 1px 2px;
+}
+
+.Cras{
+	font-size: 14px;
+	font-family: Trebuchet MS, Times New Roman, sans-serif;
+	font-style: italic;
+	src: url('fonts/trebucbd.ttf');
+	margin-bottom: 27px;
+}
+
+.info a, .button a {
+	color: #fff;
+	font-family: Kievit_Bold, Times New Roman, sans-serif;
+	src: url('fonts/Kievit_Bold.ttf');
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.wrapper1 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #fcc2c3;
+}
+
+#Paragraph1 {
+	//grid-area: Paragraph_first;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-right: 32px;
+	width: 516px;
+}
+
+#Paragraph2 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 318px;
+	margin-right: 6px;
+}
+
+.item1 {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.item2 {
+	padding-top: 15px;
+}
+
+.wrapper2 {
+	margin-top: 5px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	border-bottom: 1px solid #d6d4d4;
+	padding-bottom: 18px;
+	margin-bottom: 3px;
+}
+
+.headline_info {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+	width: 498px;
+}
+
+
+/*h1, h2 {
+	display: inline-block;
+	vertical-align: middle;
+}*/
+
+h2, h3 {
+	line-height: 55px; 
+}
+h2 {
+	color: #c0c0c0;
+}
+
+h3 {
+	color: #323231;
+	font-style: italic;
+}
+
+.headline_info h2 {
+	font-size: 48px;
+	margin-right: 7px;
+}
+
+.headline_info h3 {
+	font-size: 48px;
+	border-right: 1px dotted #d6d4d4;
+	padding-right: 14px;
+    margin-right: 11px;
+}
+
+.headline_pink {
+	font-size: 12px;
+	color: #fcc2c3;
+	font-family: "Alte DIN 1451 Mittelschrift";
+	text-transform: uppercase;
+	line-height: 1.05;
+}
+
+@font-face {
+	font-family:"Alte DIN 1451 Mittelschrift";
+	src: url("fonts/Alte_DIN_1451_Mittelschrift/din1451alt.eot?") format("eot"),url("fonts/Alte_DIN_1451_Mittelschrift/din1451alt.woff") format("woff"),url("fonts/Alte_DIN_1451_Mittelschrift/din1451alt.ttf") format("truetype"),url("fonts/Alte_DIN_1451_Mittelschrift/din1451alt.svg#AlteDIN1451Mittelschrift") format("svg");
+}
+
+.img1 {
+	width: 232px;
+}
+
+#Paragraph2 img {
+	width: 150px;
+}
+
+.info_text {
+	font-family: Trebuchet MS, Times New Roman, sans-serif;
+	src: url('fonts/trebucbd.ttf');
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.info_text img {
+	outline: 4px solid rgba(255, 255, 255, 0.75);
+	outline-offset: -4px;
+	border: 1px solid #c3c2c2;
+	margin-right: 20px;
+}
+
+#Paragraph1 .info_text {
+	margin-bottom: 27px;
+}
+
+.pink_underlined {
+	color: #f55683;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.gray {
+	color: #969696;
+}
+
+.item {
+	font-family: Arial;
+	font-size: 12px;
+	color: #c0c0c0;
+	font-style: italic;
+	text-decoration: underline;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.hor {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 14px;
+}
+
+.hor img {
+	margin-right: 7px;
+}
+
+.Paragraph3 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.paint1 {
+	background: url(images/img11.png) no-repeat;
+	background-position: top;
+	background-size: contain;
+	min-width: 85px;
+}
+
+.paint2 {
+	background: url(images/img22.png) no-repeat;
+	background-position: top;
+	background-size: contain;
+	min-width: 100px;
+}
+
+.paint3 {
+	background: url(images/img33.png) no-repeat;
+	background-position: top;
+	background-size: contain;
+	margin-top: -5px;
+	min-width: 73px;
+}
+
+.main1 {
+	min-width: 1048px;
+	margin-left: 70px;
+	margin-right: 25px;
+}
+
+.m h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	line-height: 0.9; 
+}
+
+.m h3 {
+	font-size: 40px;
+	font-style: italic;
+	text-transform: uppercase;
+	line-height: 0.65; 
+}
+
+.in {
+	margin-left: 15px;
+}
+
+.text_button {
+	background: url(images/Page-Border-pink.png) no-repeat;
+	background-position: right;
+	background-size: contain;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.text_button p {
+	font-size: 12px;
+	font-family: Trebuchet MS, Times New Roman, sans-serif;
+	src: url('fonts/trebucbd.ttf');
+}
+
+.button {
+	background: url(images/button_pink.png) no-repeat;
+	background-size: contain;
+	width: 77px;
+	height: 24px;
+	margin-left: -10px;
+	padding-top: 11px;
+	padding-left: 40px;
+}
+
+.one {
+	font-style: bold italic;
+	color: #f55683;
+}
+
+.two {
+	text-decoration: underline;
+	color: #f55683;
+}
+
+.three {
+	color: #969696;
+}
+
+.m1 {
+	margin-top: 18px;
+	width: 266px;
+}
+
+.m2 {
+	margin-top: 18px;
+	width: 247px;
+}
+
+.m3 {
+	margin-top: 18px;
+	width: 266px;
+}
+
+.menu2 li {
+	border-right: 1px solid #d6d4d4;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.container2 nav{
+	margin-bottom: 5px;
+}
+
+.container2 a, .container2 p {
+	color: #969696;
+	font-family: Trebuchet MS, Times New Roman, sans-serif;
+	src: url('fonts/trebucbd.ttf');
+}
+
+.menu2 a {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.container2 p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.menu2 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.menu2 li:last-child {
+	border: none;
+	padding-right: 0px;
+}
+
+.menu2 li:first-child {
+	padding-left: 0px;
+}
+
+.container2{
+	padding-top: 17px;
+	border-top: 3px solid #d6d4d4;
+}
+
+.container2 > div {
+	margin: 0 auto;
+	width: 590px;
+}
